@@ -1,0 +1,45 @@
+@import url('https://cdn.jsdelivr.net/npm/medium-editor@latest/dist/css/medium-editor.min.css');
+@import url('https://cdn.jsdelivr.net/npm/medium-editor@latest/dist/css/themes/default.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+div:focus {outline:0;}
+
+.dashboard_component {
+    color: white;
+    font-family: 'Noto Serif', serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_info {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 80%;
+    border-radius: 50%;
+    padding-right: 5px;
+}
+
+.top {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.bottom {
+    height: 80vh;
+}
+
+.medium-editor-element {
+    background-color: white;
+    color: black;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    padding: 5px;
+}

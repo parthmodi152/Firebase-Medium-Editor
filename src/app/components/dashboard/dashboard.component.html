@@ -1,0 +1,19 @@
+<div class="dashboard_component">
+    <div class="top">
+        <div class="profile_info">
+            <img src={{userData.photoURL}}/>
+            <h4>Welcome<br/>{{userData.displayName}}</h4>
+        </div>
+        <h1>Firebase Medium Editor</h1>
+        <div class="button">
+            <button type="button" class="btn googleBtn" (click)="authService.SignOut()">
+                Sign out
+            </button>
+        </div>
+    </div>
+    <div class="bottom">
+        <div #medium>
+        </div>
+    </div>
+</div>
+

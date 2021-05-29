@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "80c186c4-1e9a-4f91-a309-8ebcebd36efe"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -29,7 +32,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/medium-editor/dist/js/medium-editor.min.js"]
           },
           "configurations": {
             "production": {
@@ -96,7 +99,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/medium-editor/dist/js/medium-editor.min.js"]
           }
         }
       }
